@@ -15,6 +15,12 @@ java -jar myCode.jar
 
 The first step ensures the Kotlin file is saved. The second step compiles the Kotlin file, myCode.kt, into bytecode and saves it in a .jar file. The third step runs the compiled application.
 
+
+In the below example:
+
+kotlinc UserInput.kt -include-runtime -d UserInput.jar
+java -jar UserInput.jar
+
 */
 
   println("Please type your name and hit Enter.")
